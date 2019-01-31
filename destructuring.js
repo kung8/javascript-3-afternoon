@@ -55,7 +55,17 @@ function greeting( obj ) {
   Sum up the values and return the total number.
 */
 
-//Code Here
+
+
+function totalPopulation (pop) {
+    let {
+      utah:U,california:C,texas:T,arizona:A
+    } = pop
+    for (let states in pop){
+      return pop+=pop[states]
+    }    
+  };
+    
 
 
 
@@ -69,8 +79,10 @@ function greeting( obj ) {
   Push these new variables to an array and return the array. 
 */
 
-//Code Here
+function ingredients (obj){
+    let {carb,fat,protein} = obj;
 
+}
 
 
 ////////// PROBLEM 5 //////////
